@@ -1,0 +1,329 @@
+\documentclass[11pt, table, dvipsnames, svgnames, x11names, xcdraw, titlepage]{article}
+\title{Vocabulary}
+\author{
+    Farrah Fettig \and
+    Eli Johnson
+	}
+\date{2022–2024}
+
+\usepackage{hyperref}
+	\hypersetup{
+		colorlinks=TRUE, 
+		linkcolor=MediumSlateBlue,
+		filecolor=Coral,
+		urlcolor=Sepia,
+		citecolor=Teal,
+		pdftitle={Vocabulary},
+		pdfauthor={Farrah A Fettig \& Eli M Johnson},
+		pdfsubject={Our compendium.},
+		%pdfpagemode=FullScreen,
+	} 
+
+\linespread{1}
+
+\usepackage{
+	amsmath, 
+	amssymb, 
+	apacite,
+	caption,
+	enumitem, % For custom itemize
+	etoolbox,
+	listings,
+	multicol,
+	multirow,
+	pifont,
+	refcount,
+	soul, % For highlighting text
+	subcaption,
+	tabularx,
+	textgreek,
+	tikz,
+	tipa, % For IPA symbols
+	titlesec, % For title customization
+	xcolor,
+	ulem, % Text underline
+	}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english, greek]{babel}
+
+\usepackage{array}
+	\renewcommand{\arraystretch}{1.2}
+
+\usepackage{graphicx}
+	\graphicspath{ {/Applications/TeX/TeXimages} }
+
+\usepackage{geometry}
+	\geometry{left=1in,right=1in,top=1in,bottom=1in}
+
+% Command for vocabulary entries
+\newcommand{\vocabentry}[6]{
+    \begin{itemize}[leftmargin=*, labelsep=1em, itemsep=1em]
+		\item[\textit{W:}] #1 \textipa{#2}
+        \item[\textit{P:}] #3
+        \item[\textit{D:}] #4
+        \item[\textit{E:}] #5
+        \item[\textit{S:}] #6
+    \end{itemize}
+}
+
+% Command for multiple definitions with superscripts
+\newcommand{\highlighteddefs}[1]{%
+    \begin{enumerate}[leftmargin=*, labelsep=1em, itemsep=1em, align=left, labelsep=.5em, listparindent=\parindent]
+        \foreach \x in {#1} {
+            \item \hl{\x}
+        }
+    \end{enumerate}
+}
+
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx} % rm & math
+\usepackage{helvet}
+
+\titleformat{\section}
+  {\normalfont\Huge\bfseries}
+  {\thesection}{1em}{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\selectlanguage{english}
+
+\maketitle
+
+%% Template for Vocabulary Entry %%
+%\begin{itemize}[itemsep=0pt, topsep=0pt]
+%\item[\textit{W:}] 
+%\item[\textit{P:}]
+%\item[\textit{D:}]
+%\item[\textit{E:}]
+%\item[\textit{S:}]
+%\end{itemize}
+%%
+
+
+%%%%%%%%%%%
+%%%%% A %%%%%
+%%%%%%%%%%%
+
+\section*{\underline{A}}
+
+\begin{itemize}[itemsep=0pt, topsep=0pt]
+\item[\textit{W:}] \textbf{ab ovo}\quad || \quad \textipa{/ \ae"boU.voU /}
+\item[\textit{P:}] \textit{[adv. – non-comparable]}
+\item[\textit{D:}] \hl{from the beginning}
+\item[\textit{E:}] ``\textit{Ab ovo} usque ad mala.'' This phrase translates as ``from the egg to the apples,'' and it was penned by the Roman poet Horace. He was alluding to the Roman tradition of starting a meal with eggs and finishing it with apples. Horace also applied \textit{ab ovo} in an account of the Trojan War that begins with the mythical egg of Leda from which Helen (whose beauty sparked the war) was born.
+\item[\textit{S:}] primitively
+\end{itemize}
+
+\null
+
+\begin{itemize}[itemsep=0pt, topsep=0pt]
+\item[\textit{W:}] \textbf{aberrant}\quad || \quad \textipa{/@."bE.\textturnr @nt/}
+\item[\textit{P:}] \textit{[adj.]}
+\item[\textit{D:}] \hl{deviating from the usual or normal type}
+\item[\textit{E:}] From Latin \textit{aberr\={a}ns}, present active participle of \textit{aberr\={o}} (``go astray; err''); \textit{ab} (``from'') + \textit{err\={o} (``to wander'').}
+\item[\textit{S:}] abnormal, atypical, exceptional, unusual
+\end{itemize}
+
+\null
+
+\begin{itemize}[itemsep=0pt, topsep=0pt]
+\item[\textit{W:}] \textbf{abhorrent}\quad || \quad \textipa{/\ae b"hO\textturnr .Ent/}
+\item[\textit{P:}] \textit{[adj.]}
+\item[\textit{D:}] $^1$ \hl{contrary to something; not agreeable} \\
+$^2$ \hl{causing or deserving strong dislike or hatred; being so repugnant as to stir up positive antagonism}
+\item[\textit{E:}] Latin \textit{abhorre\={o}} (``shrink away from in horror''): \textit{ab-} (``from'') + \textit{horre\={o}} (``stand aghast, bristle with fear'').
+\item[\textit{S:}] $^1$ discordant, inconsistent \\
+$^2$ abominable, foul
+\end{itemize}
+
+\null
+
+\begin{itemize}[itemsep=0pt, topsep=0pt]
+\item[\textit{W:}] \textbf{abjection}\quad || \quad \textipa{/\ae b"\t{dZ}Ek.S\s{n} /}
+\item[\textit{P:}] \textit{[noun]}
+\item[\textit{D:}] $^1$ \hl{a low, downcast and degraded state} \\
+$^2$ \hl{{\footnotesize (\textsf{Mycology})}\,\,}\hl{the act of dispersing or casting off spores}
+\item[\textit{E:}] From Middle English \textit{abjeccioun}, from either Middle French \textit{abjection} or Late Latin \textit{abiecti\={o}n-}, from Latin \textit{abiectus} (``cast down'').
+\item[\textit{S:}] $^1$ corruption, decadence, perversion \\
+$^2$ N/s.
+\end{itemize}
+
+\null
+
+\begin{itemize}[itemsep=0pt, topsep=0pt]
+\item[\textit{W:}] \textbf{abstruse}\quad || \quad \textipa{/@b"st{\textturnr}us/}
+\item[\textit{P:}] \textit{[adj.]}
+\item[\textit{D:}] \hl{difficult or hard to understand/comprehend}
+\item[\textit{E:}] 1590, from French \textit{abstrus} (16c.) or directly from Latin \textit{abstrusus} (``hidden, concealed, secret''), past participle of \textit{abstrudere} (``conceal, hide,'' literally ``to thrust away''). From assimilated form of \textit{ab-} (``off, away from'') + \textit{trudere} (``to thrust, push'') from PIE root *\textit{treud-} (``to press, push, squeeze''). The term \textit{obtuse} is often erroneously substituted for \textit{abstruse} — a common malapropism, especially of American English speakers; such speakers are likely confusing \textit{obtuse} \& \textit{oblique}, or mistakenly swapping the terms as a sequela of likeness in spelling/pronunciation.
+\item[\textit{S:}] arcane, cryptic, esoteric, obscure, recondite
+\end{itemize}
+
+\null
+
+\begin{itemize}[itemsep=0pt, topsep=0pt]
+\item[\textit{W:}] \textbf{academic}\quad || \quad \textipa{/""\ae k@"dEmIk/}
+\item[\textit{P:}] \textit{[adj.]}
+\item[\textit{D:}] \hl{having little practical use or value, as by being overly detailed and disengaging, or by being theoretical and speculative with no practical importance}
+\item[\textit{E:}] From Ancient Greek \selectlanguage{greek}\textit{ἀκαδημικός}\selectlanguage{english} (\textit{akad\={e}mik\'{o}s}), from \selectlanguage{greek}Ἀκαδημία\selectlanguage{english} (\textit{Akad\={e}m\'{i}a}) — the name of the place where Plato taught.
+\item[\textit{S:}] abstract, notional, speculative. Antonymous with \textit{pragmatic}
+\end{itemize}
+
+\null
+
+\begin{itemize}[itemsep=0pt, topsep=0pt]
+\item[\textit{W:}] \textbf{acquiesce}\quad || \quad \textipa{/""\ae kwi"Es/}
+\item[\textit{P:}] \textit{[verb – intransitive]}
+\item[\textit{D:}] \hl{to accept reluctantly but without protest; to comply passively}
+\item[\textit{E:}] Essentially meaning ``to comply quietly,'' \textit{acquiesce} has as its ultimate source the Latin verb \textit{qui\={e}scere} (``to be quiet''). \textit{Qui\={e}scere} can also mean ``to repose,'' ``to fall asleep,'' or ``to rest,''—and when \textit{acquiesce} arrived in English via French in the early 1600s, it did so with two senses: the familiar ``to agree or comply'' and the now-obsolete ``to rest satisfied.'' A passage from \textit{Moby-Dick} popularized the use of the word in 19$^{\text{th}}$ century pop culture.
+\item[\textit{S:}] accede, assent
+\end{itemize}
+
+\null
+
+\begin{itemize}[itemsep=0pt, topsep=0pt]
+\item[\textit{W:}] \textbf{acroterion} \quad || \quad \textipa{/""\ae k.r@"tI@r.i""6n/}
+\item[\textit{P:}] \textit{[noun]}
+\item[\textit{D:}] \hl{an architectural ornament placed on a flat pedestal called the acroter or plinth, and mounted at the apex or corner of the pediment of a building in the classical style}
+\item[\textit{E:}] 1664, \textit{acroterion}, \textit{akroterion} from Greek \textit{akr\={o}t\={e}rion}, from \textit{akros} (``topmost, extreme''; akin to Greek \textit{ak\={e}} ``point''); \textit{acroterium} from Latin, from Greek \textit{akr\={o}t\={e}rion}; \textit{acroter}, \textit{akroter} from French \textit{acro\`{e}re}, from Latin \textit{acroterium}.
+\item[\textit{S:}] N/s.
+\end{itemize}
+
+\null
+
+\begin{itemize}[itemsep=0pt, topsep=0pt]
+\item[\textit{W:}] \textbf{acuate} \quad || \quad \textipa{/"\ae k.ju.@t/}
+\item[\textit{P:}] \textit{[adj.]}
+\item[\textit{D:}] \hl{having a sharp point; shaped like a needle}
+\item[\textit{E:}] From Medieval Latin \textit{acu\={a}tus}, past participle of \textit{acu\={a}re}, variant of Classical Latin \textit{acuere}, present active infinitive of \textit{acu\={o}} (``I sharpen''), from \textit{acus} (``needle'').
+\item[\textit{S:}] sharpened
+\end{itemize}
+
+\null
+
+\begin{itemize}[itemsep=0pt, topsep=0pt]
+\item[\textit{W:}] \textbf{acumen} \quad || \quad \textipa{/@"k.ju.m@n/}
+\item[\textit{P:}] \textit{[noun – uncountable]}
+\item[\textit{D:}] \hl{quickness or sharpness of mental perception}
+\item[\textit{E:}] Borrowed from Latin \textit{ac\={u}men} (``sharp point'').
+\item[\textit{S:}] acuity, discernment, shrewdness, wit
+\end{itemize}
+
+\null
+
+\begin{itemize}[itemsep=0pt, topsep=0pt]
+\item[\textit{W:}] \textbf{ad absurdum} \quad || \quad \textipa{/\ae d \ae b"s3r.d@m/}
+\item[\textit{P:}] \textit{[adv.]}
+\item[\textit{D:}] \hl{to the point of absurdity}
+\item[\textit{E:}] First recorded in 1650–60; from Latin \textit{ad absurdum} (literally ``to [the] absurd'').
+\item[\textit{S:}] N/s.
+\end{itemize}
+
+\null
+
+\begin{itemize}[itemsep=0pt, topsep=0pt]
+\item[\textit{W:}] \textbf{ad hoc} \quad || \quad \textipa{/""\ae d "h6k/}
+\item[\textit{P:}] \textit{[adj.]}
+\item[\textit{D:}] \hl{for the special purpose or end presently under consideration}
+\item[\textit{E:}] Borrowed from New Latin \textit{ad hoc} (``for this'').
+\item[\textit{S:}] impromptu, provisional
+\end{itemize}
+
+\null
+
+\begin{itemize}[itemsep=0pt, topsep=0pt]
+\item[\textit{W:}] \textbf{ad libitum} \quad || \quad \textipa{/\ae d "lIb.I.t@m/}
+\item[\textit{P:}] \textit{[adv. – non-comparable]}
+\item[\textit{D:}] \hl{as much as desired, to one's fill, without restriction}
+\item[\textit{E:}] Directly borrowed from Latin \textit{ad libitum}.
+\item[\textit{S:}] freely, without restraint
+\end{itemize}
+
+\null
+
+\begin{itemize}[itemsep=0pt, topsep=0pt]
+\item[\textit{W:}] \textbf{ad nauseam} \quad || \quad \textipa{/""\ae d "nO:zi@m/}
+\item[\textit{P:}] \textit{adv. – non-comparable}
+\item[\textit{D:}] \hl{having been done or repeated so often that it has become annoying or tiresome}
+\item[\textit{E:}] Unadapted borrowing from Latin \textit{ad nauseam}, from \textit{ad} (``to”) + \textit{nauseam} (``sea-sickness, sickness, nausea”), form of \textit{nausea}.
+\item[\textit{S:}] repeatedly, repetitively
+\end{itemize}
+
+\null
+
+\begin{itemize}[itemsep=0pt, topsep=0pt]
+\item[\textit{W:}] \textbf{adage} \quad || \quad \textipa{/"\ae.dI\t{dZ}/}
+\item[\textit{P:}] \textit{[noun]}
+\item[\textit{D:}] \hl{a traditional saying expressing a common experience or observation}
+\item[\textit{E:}] Borrowed from Middle French \textit{adage}, from Latin \textit{ad\textbrevemacron{a}gium}.
+\item[\textit{S:}] aphorism, axiom, dictum, proverb
+\end{itemize}
+
+\null
+
+\begin{itemize}[itemsep=0pt, topsep=0pt]
+\item[\textit{W:}] \textbf{adjudicate} \quad || \quad \textipa{/@"dZu.dI""keIt/}
+\item[\textit{P:}] \textit{[verb – transitive $^1$ {|} verb – intransitive $^2$]}
+\item[\textit{D:}] $^1$ \hl{to settle a legal case or other dispute} \\
+$^2$ \hl{to act as a judge}
+\item[\textit{E:}] Borrowed from Latin \textit{adi\={u}dic\={o}}, \textit{adi\={u}dic\={a}tus}, from \textit{ad} + \textit{i\={u}dic\={o}} (``to judge''). Doublet of \textit{adjudge}.
+\item[\textit{S:}] $^1$ arbitrate, determine, mediate, settle \\
+$^2$ referee, umpire
+\end{itemize}
+
+\null
+
+\begin{itemize}[itemsep=0pt, topsep=0pt]
+\item[\textit{W:}] \textbf{adobe} \quad || \quad \textipa{/@"doU.bI/}
+\item[\textit{P:}] \textit{[noun – uncountable]}
+\item[\textit{D:}] \hl{{\footnotesize (\textsf{Architecture})}\,\,}\hl{a brick made of sun-dried earth and straw}
+\item[\textit{E:}] Mid 18$^{\text{th}}$ century; from Spanish, from \textit{adobar} (``to plaster''), from Arabic \textit{a\textsubdot{t}-\textsubdot{t}\={u}b}, from \textit{al} (``the'') + \textit{\textsubdot{t}\={u}b} (``bricks''). \textit{Adobe} can also refer to a structure made out of \textit{adobe} bricks (especially the buildings of the indigenous Pueblo people in the Southwestern United States) or the actual clay used to make the bricks. \textit{Adobe} bricks have been used for thousands of years in myriad cultures across the globe, especially those in hot, arid climates. 
+\item[\textit{S:}]
+\end{itemize}
+
+\null
+
+\begin{itemize}[itemsep=0pt, topsep=0pt]
+\item[\textit{W:}] \textbf{adroit} \quad || \quad \textipa{/@"d\textturnr OIt/}
+\item[\textit{P:}]
+\item[\textit{D:}]
+\item[\textit{E:}]
+\item[\textit{S:}]
+\end{itemize}
+
+\null
+
+\begin{itemize}[itemsep=0pt, topsep=0pt]
+\item[\textit{W:}] 
+\item[\textit{P:}]
+\item[\textit{D:}]
+\item[\textit{E:}]
+\item[\textit{S:}]
+\end{itemize}
+
+\null
+
+\begin{itemize}[itemsep=0pt, topsep=0pt]
+\item[\textit{W:}] 
+\item[\textit{P:}]
+\item[\textit{D:}]
+\item[\textit{E:}]
+\item[\textit{S:}]
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}

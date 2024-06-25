@@ -1,1 +1,3 @@
-# Vocabulary
+# Vocabulary ✮
+
+My dictionary.
